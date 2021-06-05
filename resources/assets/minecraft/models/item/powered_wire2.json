@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:item/generated",
+
+	"textures": {
+    	"layer0": "minecraft:custom/powered_wire2"
+  	},
+
+  	"ambientocclusion": false,
+
+	"display": {
+		"fixed": {
+			"scale":  [ 2.2, 2.2, 2.2 ]
+		}
+	}
+}

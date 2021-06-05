@@ -1,0 +1,1 @@
+gamemode adventure @a[tag=player]

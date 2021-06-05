@@ -1,0 +1,109 @@
+{
+	"custom.credits": {
+		"sounds": [
+			{
+				"name": "custom/credits",
+				"stream": true,
+				"preload": true
+			}
+		]
+	},
+
+	"custom.electric": {
+		"sounds": [
+			{
+				"name": "custom/electric"
+			}
+		]
+	},
+
+	"custom.fan1": {
+		"sounds": [
+			{
+				"name": "custom/fan",
+				"attenuation_distance":3
+			}
+		]
+	},
+	"custom.fan2": {
+		"sounds": [
+			{
+				"name": "custom/fan",
+				"attenuation_distance":3
+			}
+		]
+	},
+	"custom.fan3": {
+		"sounds": [
+			{
+				"name": "custom/fan",
+				"attenuation_distance":3
+			}
+		]
+	},
+	"custom.fan4": {
+		"sounds": [
+			{
+				"name": "custom/fan",
+				"attenuation_distance":3
+			}
+		]
+	},
+	"custom.fan5": {
+		"sounds": [
+			{
+				"name": "custom/fan",
+				"attenuation_distance":3
+			}
+		]
+	},
+
+	"custom.laser": {
+		"sounds": [
+			{
+				"name": "custom/laser"
+			}
+		]
+	},
+
+	"custom.elevator": {
+		"sounds": [
+			{
+				"name": "block/beacon/ambient"
+			}
+		]
+	},
+
+    "music.game": {
+   		"sounds": [],
+    	"replace": true
+	},
+
+	"music.creative": {
+    	"sounds": [],
+    	"replace": true
+  },
+
+  "music.nether.basalt_deltas": {
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+		"stream": true,
+		"weight":20
+	  }
+	],
+	"replace": true
+  },
+
+  "music.nether.crimson_forest": {
+    "sounds": [
+      {
+        "name": "music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 20
+      }
+	],
+	"replace": true
+  }
+}

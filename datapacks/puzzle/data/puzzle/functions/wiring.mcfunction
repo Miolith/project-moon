@@ -1,0 +1,1 @@
+execute as @e[type=item_frame,nbt={Item:{id:"minecraft:wooden_hoe"}},distance=..10] run data merge entity @s {Fixed:1b,Invulnerable:1b,Invisible:1b}

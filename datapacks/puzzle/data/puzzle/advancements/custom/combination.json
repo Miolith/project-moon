@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate",
+      "nbt": "{display:{color:16383998}}"
+    },
+    "title": "Nouvelle Combinaison",
+    "description":"Nouvelle Combinaison",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

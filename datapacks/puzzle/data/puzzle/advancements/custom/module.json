@@ -1,0 +1,10 @@
+{
+    "rewards": {
+      "function": "puzzle:define_module"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    }
+  }

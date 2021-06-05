@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:item/generated",
+
+	"textures": {
+		"layer0": "minecraft:item/iron_hoe"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/door1"},
+		{"predicate": {"custom_model_data":2}, "model": "item/door2"},
+		{"predicate": {"custom_model_data":3}, "model": "item/block1"},
+		{"predicate": {"custom_model_data":4}, "model": "item/block2"},
+		{"predicate": {"custom_model_data":5}, "model": "item/block3"},
+		{"predicate": {"custom_model_data":6}, "model": "item/block4"},
+		{"predicate": {"custom_model_data":7}, "model": "item/block5"},
+		{"predicate": {"custom_model_data":8}, "model": "item/block6"},
+		{"predicate": {"custom_model_data":9}, "model": "item/teleporter"},
+		{"predicate": {"custom_model_data":10}, "model": "item/fans"},
+		{"predicate": {"custom_model_data":11}, "model": "item/tp_pad"},
+		{"predicate": {"custom_model_data":12}, "model": "item/red_lights"},
+		{"predicate": {"custom_model_data":13}, "model": "item/door_left"},
+		{"predicate": {"custom_model_data":14}, "model": "item/door_right"},
+		{"predicate": {"custom_model_data":15}, "model": "item/block7"},
+		{"predicate": {"custom_model_data":16}, "model": "item/block7"},
+		{"predicate": {"custom_model_data":17}, "model": "item/block7"},
+		{"predicate": {"custom_model_data":18}, "model": "item/laser_dir"}
+	]
+}

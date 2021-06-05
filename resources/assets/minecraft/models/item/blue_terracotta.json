@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/blue_terracotta",
+
+	"textures": {
+    	"all": "minecraft:block/blue_terracotta"
+  	},
+
+	"display": {
+		"head": {
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}
