@@ -1,3 +1,5 @@
+# Reset the opening door animation
+
 data modify entity @e[tag=door1,limit=1] Pos set from storage minecraft:door1 Pos
 data modify entity @e[tag=door2,limit=1] Pos set from storage minecraft:door2 Pos
 scoreboard players set #animation_timer timer 0

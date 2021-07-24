@@ -1,3 +1,5 @@
+# Resets everything before the puzzle rooms
+
 scoreboard players reset * gamestep
 scoreboard players set #gamestep gamestep 0
 tp @e[tag=alicia1] @e[tag=alicia_animation0,limit=1]

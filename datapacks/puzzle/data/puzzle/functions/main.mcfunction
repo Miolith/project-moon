@@ -24,7 +24,7 @@ execute if score #gamestep gamestep matches 6 run function puzzle:phase_6
 # First steps into the main room
 execute if score #gamestep gamestep matches 7 run function puzzle:phase_7
 
-# Opening red circle door and access to teleporter
+# Opening the red circle door and access to teleporter
 execute if score #gamestep gamestep matches 8 run function puzzle:phase_8
 
 # Teleportation into puzzle rooms

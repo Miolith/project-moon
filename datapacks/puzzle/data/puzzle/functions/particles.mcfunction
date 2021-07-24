@@ -1,4 +1,6 @@
-#Particles Generated with: Cloud Wolf's Particle Grapher
+# Particles Generated with: Cloud Wolf's Particle Grapher
+# In case a sphere is needed
+
 particle flame ^0.000 ^0.000 ^1.000 0 0 0 0 1 force @a
 particle flame ^0.016 ^0.156 ^0.988 0 0 0 0 1 force @a
 particle flame ^0.031 ^0.309 ^0.951 0 0 0 0 1 force @a
