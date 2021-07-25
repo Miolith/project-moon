@@ -1,3 +1,5 @@
+# Giving the player all the equipment needed
+
 scoreboard players set #gamestep gamestep 6
 scoreboard players set @a gamestep 6
 scoreboard players set #animation_timer timer 0
@@ -9,3 +11,4 @@ item replace entity @a armor.legs with leather_leggings{display: {color: 1638399
 item replace entity @a armor.head with white_stained_glass
 advancement grant @a only puzzle:custom/combination
 item replace entity @a hotbar.0 with carrot_on_a_stick{CustomModelData: 1, Unbreakable: 1b}
+item replace entity @a weapon.offhand with diamond_hoe{CustomModelData:1}

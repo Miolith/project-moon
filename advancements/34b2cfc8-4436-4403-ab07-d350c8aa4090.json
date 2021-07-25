@@ -1040,6 +1040,12 @@
     },
     "done": true
   },
+  "puzzle:custom/combination": {
+    "criteria": {
+      "test": "2021-07-24 22:48:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_hoe": "2020-08-08 14:11:55 +0200"

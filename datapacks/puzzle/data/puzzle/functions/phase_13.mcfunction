@@ -23,6 +23,8 @@ execute if score #pp_4_2 var matches 1 if block 304 46 144 heavy_weighted_pressu
 execute if score #pp_4_3 var matches 0 if block 290 35 139 heavy_weighted_pressure_plate[power=1] positioned 290 35 139 run function puzzle:rooms/room_4/pp_3
 execute if score #pp_4_3 var matches 1 if block 290 35 139 heavy_weighted_pressure_plate[power=0] positioned 290 35 139 run function puzzle:rooms/room_4/dpp_3
 
+# Pressure plate to open the exit
+
 execute if score #pp_4_4 var matches 0 if block 318 48 137 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_4/pp_4
 execute if score #pp_4_4 var matches 1 if block 318 48 137 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_4/dpp_4
 

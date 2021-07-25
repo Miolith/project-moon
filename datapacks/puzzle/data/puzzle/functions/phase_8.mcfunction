@@ -1,3 +1,5 @@
+# Opening the red circle door and access to teleporter
+
 scoreboard players add #animation_timer timer 1
 
 execute if score #animation_timer timer matches 20 run fill 112 24 158 112 30 160 air
