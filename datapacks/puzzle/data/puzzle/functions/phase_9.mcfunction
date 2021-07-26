@@ -1,4 +1,4 @@
-#First teleporter
+# Red circle teleporter to the puzzle rooms
 
 scoreboard players add #animation_timer timer 1
 

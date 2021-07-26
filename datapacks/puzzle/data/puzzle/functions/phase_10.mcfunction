@@ -1,4 +1,4 @@
- # ROOM 1
+# ROOM 1
 
 scoreboard players add #animation_timer timer 1
 

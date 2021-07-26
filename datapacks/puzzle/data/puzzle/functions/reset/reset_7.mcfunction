@@ -1,3 +1,4 @@
+# Reset main room (first tutorial at least)
 fill 94 16 162 95 17 162 air
 fill 106 15 170 106 16 171 brown_stained_glass
 

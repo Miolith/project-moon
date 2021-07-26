@@ -1,3 +1,5 @@
+# Alicia comes to the player and invites him to follow her
+
 scoreboard players add #animation_timer timer 1
 
 execute if score #animation_timer timer matches 1..1 run function puzzle:animation/phase_1_1

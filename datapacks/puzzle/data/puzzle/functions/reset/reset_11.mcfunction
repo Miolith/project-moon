@@ -1,3 +1,5 @@
+# Reset room 2
+
 execute as @e[tag=replaceable_block,x=197,y=16,z=133,dx=42,dy=32,dz=49] at @s run function puzzle:remove_block
 
 scoreboard players set #block var 6

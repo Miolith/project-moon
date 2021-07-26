@@ -1,4 +1,4 @@
-execute as @a at @s run function puzzle:test
+execute as @a at @s run function puzzle:triggers
 
 # Begining
 execute if score #gamestep gamestep matches 0 run function puzzle:phase_0
@@ -24,7 +24,7 @@ execute if score #gamestep gamestep matches 6 run function puzzle:phase_6
 # First steps into the main room
 execute if score #gamestep gamestep matches 7 run function puzzle:phase_7
 
-# Opening red circle door and access to teleporter
+# Opening the red circle door and access to teleporter
 execute if score #gamestep gamestep matches 8 run function puzzle:phase_8
 
 # Teleportation into puzzle rooms
