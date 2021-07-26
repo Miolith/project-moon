@@ -7,4 +7,4 @@ This map challenges you with a succession of puzzle rooms in which you manipulat
 
 # Small preview
 
-https://streamable.com/kjbbkp
+https://user-images.githubusercontent.com/36192751/127045343-a0aa33ac-27a9-4851-98de-99bf3dd2599c.mp4
