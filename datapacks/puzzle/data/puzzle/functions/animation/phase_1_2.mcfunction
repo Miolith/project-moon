@@ -1,4 +1,4 @@
-# Alicia comes and greet the player
+# Alicia comes and greets the player
 
 title @a subtitle ["",{"translate":"space.-60"},{"text":"Alicia"}]
 title @a title ["",{"translate":"space.-35"},{"text":"\uE000"}]

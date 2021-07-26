@@ -734,6 +734,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
+    "criteria": {
+      "has_polished_blackstone_slab": "2021-07-25 17:25:05 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_glazed_terracotta": {
     "criteria": {
       "has_cyan_terracotta": "2020-08-05 17:36:42 +0200"

@@ -1,4 +1,4 @@
-execute as @a at @s run function puzzle:test
+execute as @a at @s run function puzzle:triggers
 
 # Begining
 execute if score #gamestep gamestep matches 0 run function puzzle:phase_0

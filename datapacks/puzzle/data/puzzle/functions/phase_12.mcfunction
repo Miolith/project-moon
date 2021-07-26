@@ -37,7 +37,7 @@ tp @a[x=267,y=46,z=131,dx=0,dy=2,dz=0] 261 46 147
 
 #============================================================================
 
-#open door animation when player is at 293 46 144
+#open door animation when the player is at 293 46 144
 
 execute if entity @a[x=291,y=46,z=144,dx=0,dy=2,dz=2] if score #animation_timer timer matches 0.. run scoreboard players set #animation_timer timer -2000000010
 
