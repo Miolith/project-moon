@@ -26,8 +26,8 @@ execute if score #pp_4_3 var matches 1 if block 290 35 139 heavy_weighted_pressu
 
 # Pressure plate to open the exit
 
-execute if score #pp_4_4 var matches 0 if block 318 48 137 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_4/pp_4
-execute if score #pp_4_4 var matches 1 if block 318 48 137 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_4/dpp_4
+execute if score #pp_4_4 var matches 0 if block 317 47 137 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_4/pp_4
+execute if score #pp_4_4 var matches 1 if block 317 47 137 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_4/dpp_4
 
 
 execute as b13d0ca6-dead-450b-b83c-62aaf517f7e0 at @s if entity @s[tag=on] run function puzzle:fans/fan_up

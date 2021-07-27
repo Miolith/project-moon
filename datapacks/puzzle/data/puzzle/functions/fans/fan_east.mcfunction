@@ -16,3 +16,5 @@ tp @a[tag=faned_east] @e[type=armor_stand,tag=fan_east_motion,nbt={OnGround:0b},
 kill @e[type=armor_stand,tag=fan_east_motion,nbt={OnGround:1b}]
 
 execute as @a[tag=faned_east] at @s unless entity @e[type=armor_stand,distance=..2,tag=fan_east_motion] run tag @s remove faned_east
+
+particle dust 1 1 1 1 ~ ~ ~ 5 0.5 0.5 1 1 force
