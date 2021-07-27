@@ -11,6 +11,8 @@ execute unless score #fan_on3 var matches 1.. run tag @e[type=armor_stand,x=309,
 execute if score #open_door6 var matches 1 run fill 308 45 133 310 45 135 brown_stained_glass
 execute unless score #open_door6 var matches 1 run fill 308 45 133 310 45 135 air
 
+fill 299 38 130 296 40 133 air replace brown_stained_glass 
+
 playsound custom.electric master @a 308 45 133 2
 
 execute positioned ~ ~ ~1 run function puzzle:deactivate_wire

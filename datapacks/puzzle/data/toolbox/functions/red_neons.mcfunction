@@ -1,0 +1,1 @@
+execute as @e[type=glow_item_frame,distance=..10] run data merge entity @s {Item:{id:"iron_hoe",Count:1b,tag:{CustomModelData:12}},Invisible:1b,Fixed:1b,Invulnerable:1b}

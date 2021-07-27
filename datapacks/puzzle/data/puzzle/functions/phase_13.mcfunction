@@ -57,4 +57,7 @@ tp @a[x=300,y=45,z=144,dx=0,dy=2,dz=0] 301 46 134 -90 ~
 execute as @a[x=300,y=45,z=134,dx=0,dy=2,dz=0] at @s run playsound minecraft:entity.enderman.teleport master @s 301 46 144 3
 tp @a[x=300,y=45,z=134,dx=0,dy=2,dz=0] 301 46 144 -90 ~
 
+execute as @a[x=298,y=37,z=132,dx=0,dy=2,dz=0] at @s run playsound minecraft:entity.enderman.teleport master @s 301 46 134 3
+tp @a[x=298,y=37,z=132,dx=0,dy=2,dz=0] 301 46 134 -90 ~
+
 # TODO : teleportation pad downstairs
