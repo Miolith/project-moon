@@ -10,7 +10,18 @@ execute if score #animation_timer timer matches 11 run playsound minecraft:entit
 
 #============================================================================
 
-effect clear @a levitation
+execute if score $pp_1 room2_vars matches 0 if block 216 28 137 heavy_weighted_pressure_plate[power=1] positioned 216 28 137 run function puzzle:rooms/room_2/pp_1
+execute if score $pp_1 room2_vars matches 1 if block 216 28 137 heavy_weighted_pressure_plate[power=0] positioned 216 28 137 run function puzzle:rooms/room_2/dpp_1
+
+execute if score $pp_2 room2_vars matches 0 if block 232 36 142 heavy_weighted_pressure_plate[power=1] run function rooms:2/pp_2
+execute if score $pp_2 room2_vars matches 1 if block 232 36 142 heavy_weighted_pressure_plate[power=0] run function rooms:2/dpp_2
+
+execute if score $pp_3 room2_vars matches 0 if block 222 28 170 heavy_weighted_pressure_plate[power=1] run function rooms:2/pp_3
+execute if score $pp_3 room2_vars matches 1 if block 222 28 170 heavy_weighted_pressure_plate[power=0] run function rooms:2/dpp_3
+
+execute if score $button_2 room2_vars matches 0 if block 210 41 172 crimson_button[powered=true] run function rooms:2/button_2
+
+effect clear @e[x=200,y=19,z=136,dx=37,dy=29,dz=44] levitation
 
 execute as 15d36c4c-9de3-40de-8526-cce136bdd538 at @s if entity @s[tag=on] run function puzzle:fans/fan_up
 execute as 15d36c4c-9de3-40de-8526-cce136bdd538 at @s if entity @s[tag=on] run function puzzle:sounds/fan1
@@ -22,7 +33,7 @@ execute as d8b4600d-e6f2-4fa1-b379-267da2929e78 at @s if entity @s[tag=on] run f
 execute as d8b4600d-e6f2-4fa1-b379-267da2929e78 at @s if entity @s[tag=!on] run stopsound @a master custom.fan2
 execute as d8b4600d-e6f2-4fa1-b379-267da2929e78 if entity @s[tag=!on] run scoreboard players set @s timer 0
 
-execute as 870cc264-8d36-4e30-8770-b6605b9ee5e9 at @s if entity @s[tag=on] run function puzzle:fans/fan_up
+execute as 870cc264-8d36-4e30-8770-b6605b9ee5e9 at @s if entity @s[tag=on] run function rooms:2/custom_up_fan
 execute as 870cc264-8d36-4e30-8770-b6605b9ee5e9 at @s if entity @s[tag=on] run function puzzle:sounds/fan3
 execute as 870cc264-8d36-4e30-8770-b6605b9ee5e9 at @s if entity @s[tag=!on] run stopsound @a master custom.fan3
 execute as 870cc264-8d36-4e30-8770-b6605b9ee5e9 if entity @s[tag=!on] run scoreboard players set @s timer 0
