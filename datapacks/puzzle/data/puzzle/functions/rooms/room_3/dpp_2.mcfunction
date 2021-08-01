@@ -14,8 +14,8 @@ execute unless score #open_door4 var matches 1 run fill 263 38 148 255 41 148 br
 playsound custom.electric master @a 255 38 136 2
 playsound custom.electric master @a 263 38 148 2
 
-execute positioned ~-1 ~4 ~1 run function puzzle:deactivate_wire
-execute positioned ~-1 ~4 ~-1 run function puzzle:deactivate_wire
+execute positioned ~ ~ ~1 run function puzzle:deactivate_wire
+execute positioned ~ ~ ~-1 run function puzzle:deactivate_wire
 
 setblock 276 49 148 air
 

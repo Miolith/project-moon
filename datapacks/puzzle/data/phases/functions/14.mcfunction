@@ -50,13 +50,22 @@ execute if score #pp_5_13 var matches 1 if block 374 46 135 heavy_weighted_press
 execute if score #pp_5_14 var matches 0 if block 351 68 150 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_5/pp_14
 execute if score #pp_5_14 var matches 1 if block 351 68 150 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_5/dpp_14
 
-#First mini-game 4th pp
-execute if score #pp_5_18 var matches 0 if block 351 62 100 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_5/pp_18
-execute if score #pp_5_18 var matches 1 if block 351 62 100 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_5/dpp_18
 
-#First mini-game 5th pp
-execute if score #pp_5_19 var matches 0 if block 355 62 100 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_5/pp_19
-execute if score #pp_5_19 var matches 1 if block 355 62 100 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_5/dpp_19
+# ========= First mini game ===========
+
+#First mini-game 4th pressure plate 
+execute if score #pp_5_18 var matches 0 if block 351 69 100 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_5/pp_18
+execute if score #pp_5_18 var matches 1 if block 351 69 100 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_5/dpp_18
+
+#First mini-game 5th pressure plate
+execute if score #pp_5_19 var matches 0 if block 355 69 100 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_5/pp_19
+execute if score #pp_5_19 var matches 1 if block 355 69 100 heavy_weighted_pressure_plate[power=0] run function puzzle:rooms/room_5/dpp_19
+
+# Button to reset the cube or make it spawn
+execute if score $button_1 room5_vars matches 0 if block 357 72 105 crimson_button[powered=true] run function puzzle:rooms/room_5/button_1
+execute if score $button_1 room5_vars matches 1 if block 357 72 105 crimson_button[powered=false] run scoreboard players set $button_1 room5_vars 0
+
+# =======================================
 
 #open third beam powered door
 execute if score #pp_5_20 var matches 0 if block 347 71 119 heavy_weighted_pressure_plate[power=1] run function puzzle:rooms/room_5/pp_20
@@ -72,8 +81,7 @@ execute as d70393ff-e2e1-4963-858c-fd63e88f9a02 if entity @s[tag=!on] run scoreb
 execute positioned 333 62 97 as @e[type=turtle,tag=71771,distance=..4] run tp @s 334 63 124
 
 
-execute as 6c5445cf-cdb8-4019-98ca-3d445fa91d13 run function puzzle:tp_pad/tp_pad_animation
-execute as 8742a61d-224f-4975-b87c-39d6459732e6 run function puzzle:tp_pad/tp_pad_animation
+execute as @e[type=item_frame,tag=tp_pad] run function puzzle:tp_pad/tp_pad_animation
 
 execute as 6ebde7c0-1a7a-4cab-b32d-8d94c20cd888 run function puzzle:rooms/room_5/arrow_x
 execute as bc9e129d-d6a6-488b-90e1-9c6f8488bdaa run function puzzle:rooms/room_5/arrow_y

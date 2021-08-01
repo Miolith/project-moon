@@ -1,0 +1,4 @@
+setblock 46 17 159 air destroy
+setblock 46 18 159 minecraft:barrier
+summon armor_stand 46 13 159 {Invisible:1b,NoGravity:1b,Tags:["combination"],Invulnerable: 1b, DisabledSlots: 2039583, Rotation: [-90.0f, 0.0f], ArmorItems: [{},{},{},{id: "minecraft:blue_terracotta", Count: 1b}]}
+summon armor_stand 46 15.2 159 {NoGravity:1b, Tags:["combination","combination2"],Invulnerable: 1b, DisabledSlots: 2037527, Rotation: [-90.0f, 0.0f], ArmorItems: [{id: "minecraft:leather_boots", Count: 1b, tag: {Damage: 0, display: {color: 16383998}}}, {id: "minecraft:leather_leggings", Count: 1b, tag: {Damage: 0, display: {color: 16383998}}}, {id: "minecraft:leather_chestplate", Count: 1b, tag: {Damage: 1, display: {color: 16383998}}}, {id: "minecraft:white_stained_glass", Count: 1b}]}

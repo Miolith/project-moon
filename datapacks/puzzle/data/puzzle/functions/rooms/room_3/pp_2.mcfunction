@@ -15,8 +15,8 @@ execute if score #open_door5 var matches 3.. run fill 276 46 144 276 48 146 air
 
 playsound custom.electric master @a 255 38 136 2
 
-execute positioned ~ ~3 ~1 run function puzzle:active_wire
-execute positioned ~ ~3 ~-1 run function puzzle:active_wire
+execute positioned ~ ~ ~1 run function puzzle:active_wire
+execute positioned ~ ~ ~-1 run function puzzle:active_wire
 
 setblock 276 49 148 redstone_block
 
