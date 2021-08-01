@@ -10,6 +10,10 @@ execute if score #animation_timer timer matches 11 run playsound minecraft:entit
 
 #============================================================================
 
+# Teleportation pad particle effect
+execute as @e[type=item_frame,tag=tp_pad] run function puzzle:tp_pad/tp_pad_animation
+
+
 execute if score #pp_3_1 var matches 0 if block 259 38 123 heavy_weighted_pressure_plate[power=1] positioned 259 38 123 run function puzzle:rooms/room_3/pp_1
 execute if score #pp_3_1 var matches 1 if block 259 38 123 heavy_weighted_pressure_plate[power=0] positioned 259 38 123 run function puzzle:rooms/room_3/dpp_1
 
