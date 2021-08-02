@@ -7,4 +7,4 @@ setblock 366 70 96 minecraft:redstone_block
 setblock 356 65 95 minecraft:redstone_block
 setblock 349 68 95 minecraft:redstone_block
 
-scoreboard players set #pp_5_19 var 1
+scoreboard players set $pp_19 room5_vars 1

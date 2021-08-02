@@ -5,4 +5,4 @@ execute if score #open_door_5_4 var matches 2 run playsound custom.electric mast
 setblock 381 49 132 minecraft:redstone_block
 function puzzle:active_wire
 
-scoreboard players set #pp_5_12 var 1
+scoreboard players set $pp_12 room5_vars 1

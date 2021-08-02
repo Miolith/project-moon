@@ -5,4 +5,4 @@ execute if score #open_door_5_4 var matches 1 run playsound custom.electric mast
 setblock 381 49 132 minecraft:dead_tube_coral_block
 function puzzle:deactivate_wire
 
-scoreboard players set #pp_5_12 var 0
+scoreboard players set $pp_12 room5_vars 0

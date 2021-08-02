@@ -7,4 +7,4 @@ setblock 366 70 96 minecraft:air
 setblock 356 65 95 minecraft:air
 setblock 349 68 95 minecraft:air
 
-scoreboard players set #pp_5_19 var 0
+scoreboard players set $pp_19 room5_vars 0

@@ -1,7 +1,0 @@
-scoreboard players remove #open_door_5_5 var 1
-
-execute if score #open_door_5_5 var matches 0 run fill 352 68 148 350 70 148 brown_stained_glass
-execute if score #open_door_5_5 var matches 0 run playsound custom.electric master @a 352 68 148 3
-execute positioned 351.5 63.5 148.5 run function puzzle:deactivate_wire
-
-scoreboard players set #beam_1 var 0
