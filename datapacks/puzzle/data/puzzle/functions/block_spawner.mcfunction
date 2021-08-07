@@ -1,4 +1,4 @@
-# Place a block dispenser
+# Dispense a block
 
 function puzzle:spawn_block
 playsound minecraft:block.piston.extend master @a ~ ~ ~ 2

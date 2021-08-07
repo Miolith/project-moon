@@ -53,6 +53,18 @@ execute if score $pp_14 room5_vars matches 1 if block 351 68 150 heavy_weighted_
 
 # ========= First mini game ===========
 
+#First mini-game first pressure plate 
+execute if score $pp_15 room5_vars matches 0 if block 350 69 104 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_15
+execute if score $pp_15 room5_vars matches 1 if block 350 69 104 heavy_weighted_pressure_plate[power=0] run scoreboard players set $pp_15 room5_vars 0
+
+#First mini-game 2nd pressure plate 
+execute if score $pp_16 room5_vars matches 0 if block 353 69 104 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_16
+execute if score $pp_16 room5_vars matches 1 if block 353 69 104 heavy_weighted_pressure_plate[power=0] run scoreboard players set $pp_16 room5_vars 0
+
+#First mini-game 3rd pressure plate 
+execute if score $pp_17 room5_vars matches 0 if block 356 69 104 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_17
+execute if score $pp_17 room5_vars matches 1 if block 356 69 104 heavy_weighted_pressure_plate[power=0] run scoreboard players set $pp_17 room5_vars 0
+
 #First mini-game 4th pressure plate 
 execute if score $pp_18 room5_vars matches 0 if block 351 69 100 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_18
 execute if score $pp_18 room5_vars matches 1 if block 351 69 100 heavy_weighted_pressure_plate[power=0] run function rooms:5/dpp_18
@@ -117,6 +129,9 @@ execute if entity @e[type=area_effect_cloud,tag=laser,x=365,y=67,z=134,dx=0,dy=1
 
 # Mini game room 2 ( laser )
 execute if score #laser1 var matches 0 if entity @e[type=area_effect_cloud,x=357,y=70,z=160,dx=0,dy=0,dz=-1] positioned 357 72 161 run function rooms:5/laser
+
+# Mini game room 3 ( laser )
+execute if score $laser_bis1 room5_vars matches 0 if entity @e[type=area_effect_cloud,x=328,y=73,z=127,dx=0,dy=0,dz=-1] positioned 328 73 127 run function rooms:5/laser_bis
 
 execute as @a[tag=spectate1] at @s run gamemode spectator @s
 execute as @a[tag=spectate1] at @s run spectate cf13f0f3-656a-4378-b374-59ac89fc04dc @s
