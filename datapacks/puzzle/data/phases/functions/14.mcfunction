@@ -105,7 +105,7 @@ execute if score #beam_duration timer matches 1.. run function rooms:5/beam_dura
 # ============== Teleportation =================
 
 # tp pad particle effect 
-execute as @e[type=item_frame,tag=tp_pad] run function puzzle:tp_pad/tp_pad_animation
+execute as @e[type=marker,tag=tp_pad] run function puzzle:tp_pad/tp_pad_animation
 
 # -------------- main tp pad 
 execute as @a[x=352,y=45,z=134,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 344 78 134 3

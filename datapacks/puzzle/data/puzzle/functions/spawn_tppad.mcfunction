@@ -1,1 +1,0 @@
-data merge entity @e[type=item_frame,distance=..2,sort=nearest,limit=1] {Invisible:1b,Invulnerable:1b,Fixed:1b,Tags:["tp_pad"]}
