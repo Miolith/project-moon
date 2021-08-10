@@ -34,6 +34,6 @@ execute if score #animation_timer timer matches 800 run title @a subtitle {"text
 execute if score #animation_timer timer matches 1000..1000 run title @a title {"text":"Remerciements", "color":"yellow"}
 execute if score #animation_timer timer matches 1000..1000 run title @a subtitle {"text":"Gelios, Amber", "color":"yellow"}
 
-execute if score #animation_timer timer matches 1200..1200 run title @a title {"text":"To the M.O.O.N", "color":"yellow", "bold":true}
+execute if score #animation_timer timer matches 1200..1200 run title @a title {"text":"There is no Moon", "color":"yellow", "bold":true}
 
 execute if score #animation_timer timer matches 1480..1480 run function puzzle:animation/phase_3_4

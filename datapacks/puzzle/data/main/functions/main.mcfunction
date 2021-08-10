@@ -45,3 +45,6 @@ execute if score #gamestep gamestep matches 13 run function phases:13
 
 # ROOM 5
 execute if score #gamestep gamestep matches 14 run function phases:14
+
+# ROOM 6
+execute if score #gamestep gamestep matches 15 run function phases:15
