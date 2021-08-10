@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_hoe",Count:1b,tag:{CustomModelData:10}}],Tags:["fan"],NoBasePlate:1b}
