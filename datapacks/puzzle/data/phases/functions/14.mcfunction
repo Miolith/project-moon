@@ -128,10 +128,12 @@ execute if entity @e[type=area_effect_cloud,tag=laser,x=362,y=58,z=134,dx=0,dy=1
 execute if entity @e[type=area_effect_cloud,tag=laser,x=365,y=67,z=134,dx=0,dy=1,dz=0] positioned 365 67 134 run function puzzle:explosion
 
 # Mini game room 2 ( laser )
-execute if score #laser1 var matches 0 if entity @e[type=area_effect_cloud,x=357,y=70,z=160,dx=0,dy=0,dz=-1] positioned 357 72 161 run function rooms:5/laser
+
+
 
 # Mini game room 3 ( laser )
-execute if score $laser_bis1 room5_vars matches 0 if entity @e[type=area_effect_cloud,x=328,y=73,z=127,dx=0,dy=0,dz=-1] positioned 328 73 127 run function rooms:5/laser_bis
+
+
 
 execute as @a[tag=spectate1] at @s run gamemode spectator @s
 execute as @a[tag=spectate1] at @s run spectate cf13f0f3-656a-4378-b374-59ac89fc04dc @s
