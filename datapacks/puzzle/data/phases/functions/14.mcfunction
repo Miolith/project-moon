@@ -129,7 +129,7 @@ execute if entity @e[type=area_effect_cloud,tag=laser,x=365,y=67,z=134,dx=0,dy=1
 
 # Mini game room 2 ( laser )
 
-
+execute as @e[type=area_effect_cloud,x=357,y=69,z=160,dx=0,dy=0,dz=-1] at @s run execute as @e[type=marker,tag=laser_post,limit=1,sort=nearest] at @s run function puzzle:laser/receive
 
 # Mini game room 3 ( laser )
 
