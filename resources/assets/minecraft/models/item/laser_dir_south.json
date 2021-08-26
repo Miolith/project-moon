@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:block/cube_all",
+
+	"textures": {
+    	"all": "minecraft:custom/laser_dir_south"
+  	},
+
+	"display": {
+		"head": {
+			"translation":  [ 0, -32.8, 0 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}

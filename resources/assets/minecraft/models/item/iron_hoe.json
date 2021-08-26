@@ -23,6 +23,9 @@
 		{"predicate": {"custom_model_data":15}, "model": "item/block7"},
 		{"predicate": {"custom_model_data":16}, "model": "item/block7"},
 		{"predicate": {"custom_model_data":17}, "model": "item/block7"},
-		{"predicate": {"custom_model_data":18}, "model": "item/laser_dir"}
+		{"predicate": {"custom_model_data":18}, "model": "item/laser_dir_west"},
+		{"predicate": {"custom_model_data":19}, "model": "item/laser_dir_north"},
+		{"predicate": {"custom_model_data":20}, "model": "item/laser_dir_south"},
+		{"predicate": {"custom_model_data":21}, "model": "item/laser_dir_east"}
 	]
 }
