@@ -1,4 +1,3 @@
-say receive
 tag @s add activated
 playsound block.beacon.activate master @a
 execute if block ~ ~-1 ~ observer run setblock ~ ~-1 ~ observer[powered=true]

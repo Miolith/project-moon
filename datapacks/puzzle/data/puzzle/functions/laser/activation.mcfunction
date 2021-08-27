@@ -1,4 +1,3 @@
-say activation
 
 execute store result score #gametime var run time query gametime
 scoreboard players operation #gametime var -= #20 var
