@@ -138,8 +138,3 @@ execute as @e[type=area_effect_cloud,x=322,y=72,z=128,dx=0,dy=0,dz=-1] at @s run
 execute as @e[type=area_effect_cloud,x=328,y=72,z=128,dx=0,dy=0,dz=1] at @s run execute as @e[type=marker,tag=laser_post,limit=1,sort=nearest] at @s run function puzzle:laser/receive
 
 function rooms:5/miniroom3
-
-# ========================
-
-execute as @a[tag=spectate1] at @s run gamemode spectator @s
-execute as @a[tag=spectate1] at @s run spectate cf13f0f3-656a-4378-b374-59ac89fc04dc @s

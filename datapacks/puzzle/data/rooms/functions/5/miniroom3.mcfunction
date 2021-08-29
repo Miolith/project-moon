@@ -27,3 +27,5 @@ tp @a[x=345,y=70,z=117,dx=0,dy=2,dz=0] 335 71 117
 
 execute as @a[x=337,y=70,z=117,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 346 71 118 3
 tp @a[x=337,y=70,z=117,dx=0,dy=2,dz=0] 346 71 118
+
+execute if block 341 71 145 crimson_button[powered=true] if score $miniroom3_button room5_vars matches 0 run function rooms:5/miniroom3_button

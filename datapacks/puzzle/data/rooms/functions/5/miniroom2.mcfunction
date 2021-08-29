@@ -24,8 +24,17 @@ execute if score $miniroom2_pp1 room5_vars matches 0 if block 351 68 183 heavy_w
 execute if score $miniroom2_pp1 room5_vars matches 1 if block 351 68 183 heavy_weighted_pressure_plate[power=0] run function rooms:5/miniroom2_dpp1
 
 
+execute if block 346 63 148 crimson_button[powered=true] if score $miniroom2_button room5_vars matches 0 run function rooms:5/miniroom2_button
+
 execute as @a[x=353,y=67,z=151,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 351 68 153 3
 tp @a[x=353,y=67,z=151,dx=0,dy=2,dz=0] 351 68 153
 
 execute as @a[x=349,y=67,z=153,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 352 68 151 3
 tp @a[x=349,y=67,z=153,dx=0,dy=2,dz=0] 352 68 151
+
+
+execute as @a[x=351,y=67,z=187,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 347 62 150 3
+tp @a[x=351,y=67,z=187,dx=0,dy=2,dz=0] 347 62 150 180 0
+
+execute as @a[x=346,y=61,z=153,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 352 68 151 3
+tp @a[x=346,y=61,z=153,dx=0,dy=2,dz=0] 351 68 185 180 0
