@@ -15,4 +15,17 @@ execute store result score #mini2_gametime room5_vars run time query gametime
 scoreboard players operation #mini2_gametime room5_vars -= #25 var
 
 execute if score #mini2_last_laser room5_vars = #mini2_gametime room5_vars run fill 352 66 175 359 66 175 stone
-execute if score #mini2_last_laser room5_vars = #mini2_gametime room5_vars run fill 351 69 175 351 71 175 brown_stained_glass 
+execute if score #mini2_last_laser room5_vars = #mini2_gametime room5_vars run fill 351 69 175 351 71 175 brown_stained_glass
+
+execute if entity @e[x=351,y=70,z=178,dx=0,tag=activated] if score $miniroom2_door room5_vars matches 0 run function rooms:5/laser_opendoor
+execute if entity @e[x=351,y=70,z=178,dx=0,tag=!activated] if score $miniroom2_door room5_vars matches 1 run function rooms:5/laser_closedoor
+
+execute if score $miniroom2_pp1 room5_vars matches 0 if block 351 68 183 heavy_weighted_pressure_plate[power=1] run function rooms:5/miniroom2_pp1
+execute if score $miniroom2_pp1 room5_vars matches 1 if block 351 68 183 heavy_weighted_pressure_plate[power=0] run function rooms:5/miniroom2_dpp1
+
+
+execute as @a[x=353,y=67,z=151,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 351 68 153 3
+tp @a[x=353,y=67,z=151,dx=0,dy=2,dz=0] 351 68 153
+
+execute as @a[x=349,y=67,z=153,dx=0,dy=2,dz=0] run playsound minecraft:entity.enderman.teleport master @s 352 68 151 3
+tp @a[x=349,y=67,z=153,dx=0,dy=2,dz=0] 352 68 151
