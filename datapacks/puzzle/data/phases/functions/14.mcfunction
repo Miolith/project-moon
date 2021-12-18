@@ -51,31 +51,7 @@ execute if score $pp_14 room5_vars matches 0 if block 351 68 150 heavy_weighted_
 execute if score $pp_14 room5_vars matches 1 if block 351 68 150 heavy_weighted_pressure_plate[power=0] run function rooms:5/dpp_14
 
 
-# ========= First mini game ===========
-
-#First mini-game first pressure plate 
-execute if score $pp_15 room5_vars matches 0 if block 350 69 104 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_15
-execute if score $pp_15 room5_vars matches 1 if block 350 69 104 heavy_weighted_pressure_plate[power=0] run scoreboard players set $pp_15 room5_vars 0
-
-#First mini-game 2nd pressure plate 
-execute if score $pp_16 room5_vars matches 0 if block 353 69 104 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_16
-execute if score $pp_16 room5_vars matches 1 if block 353 69 104 heavy_weighted_pressure_plate[power=0] run scoreboard players set $pp_16 room5_vars 0
-
-#First mini-game 3rd pressure plate 
-execute if score $pp_17 room5_vars matches 0 if block 356 69 104 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_17
-execute if score $pp_17 room5_vars matches 1 if block 356 69 104 heavy_weighted_pressure_plate[power=0] run scoreboard players set $pp_17 room5_vars 0
-
-#First mini-game 4th pressure plate 
-execute if score $pp_18 room5_vars matches 0 if block 351 69 100 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_18
-execute if score $pp_18 room5_vars matches 1 if block 351 69 100 heavy_weighted_pressure_plate[power=0] run function rooms:5/dpp_18
-
-#First mini-game 5th pressure plate
-execute if score $pp_19 room5_vars matches 0 if block 355 69 100 heavy_weighted_pressure_plate[power=1] run function rooms:5/pp_19
-execute if score $pp_19 room5_vars matches 1 if block 355 69 100 heavy_weighted_pressure_plate[power=0] run function rooms:5/dpp_19
-
-# Button to reset the cube or make it spawn
-execute if score $button_1 room5_vars matches 0 if block 357 72 105 crimson_button[powered=true] run function rooms:5/button_1
-execute if score $button_1 room5_vars matches 1 if block 357 72 105 crimson_button[powered=false] run scoreboard players set $button_1 room5_vars 0
+# ========= First mini room ===========
 
 # =======================================
 
